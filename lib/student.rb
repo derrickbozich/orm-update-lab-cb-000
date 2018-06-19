@@ -50,7 +50,7 @@ class Student
   def self.new_from_db(row)
     id = row[0]
     student = self.new(row[1],row[2],id)
-    binding.pry
+    
     student
   end
 
